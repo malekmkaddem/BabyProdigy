@@ -1,0 +1,13 @@
+body{
+     background-image: url("productBackGround.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size: cover;
+    
+}
+
+
+.ui.styled.accordion{
+    opacity: 95%;
+    background-color:lightcyan;
+}
