@@ -3,6 +3,7 @@ body{
      background-position:center;
      background-repeat:no-repeat;
      background-size:cover;   
+    background-color: black;
     
 }
 
@@ -15,7 +16,7 @@ p{
     opacity:90%;
     text-align:justify;
     display: flex;
-    width: 33%;
+    width: 100%;
     height: auto;
 }
 footer{
@@ -42,9 +43,11 @@ footer{
         
         display:contents;
        font-size:50%;
-        width: 100%
+        width: 100%;
         
-        
+    }
+    #menu{
+       display: none;
     }
        img{
         display:flex;
@@ -69,6 +72,7 @@ p{
     
     display: flex;
    width: 100%;
+    color: whitesmoke;
 }
     
     
@@ -81,5 +85,23 @@ p{
         font-family: cursive;
         
 	}
+    #icon{
+     background: none;
+        float: left;
+        display: flex;
+        font-size: 80%;
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+    }
+    #mycheckbox{
+        display: none;
+    }
     
-}
+    #mycheckbox:checked + #menu{
+         display:contents;
+       font-size:50%;
+        width: 100%;
+    }
+        
+    }
