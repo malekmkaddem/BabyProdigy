@@ -3,6 +3,7 @@ body{
      background-position:center;
      background-repeat:no-repeat;
      background-size:cover;   
+    
 }
 
 h1{
@@ -40,7 +41,8 @@ footer{
     #menu{
         
         display:contents;
-       font-size: 55%;
+       font-size:50%;
+        width: 100%
         
         
     }
