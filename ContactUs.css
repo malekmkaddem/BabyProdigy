@@ -1,14 +1,23 @@
 
 @media screen (orientation: landscape) , (max-width:660px) {
 
-#contactInfo{font-size:100%;
+    body{
+        
+        background-color: black;
+        margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #contactInfo{
+        font-size:100%;
         line-height: 1.5;
         text-align:center;
-    opacity:90%;
-    
-    display: flex;
+    display:lex;
     width: 100%;
-    border: 5px solid black;
+    border: 5px solid white;
     font-family: cursive;
 }
 
@@ -16,8 +25,6 @@
     font-size:40%;
         line-height: 1.5;
         text-align:center;
-    
-    
     display: flex;
    width: 100%;
     color: white;
@@ -26,4 +33,11 @@
     #menuHorizental{
         display: none;
     }
+    
+    body.pushable>.pusher {
+   
+        background-color: black;
+    
+    }
+    
 }
