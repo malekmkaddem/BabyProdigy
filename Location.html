@@ -57,6 +57,11 @@
      <br>
      <h2 id ="location"> You can locate us simply by allowing your location to be visible.   </h2> 
         </div>
+        <div id = "location">
+        <button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+        </div>
       
 
     </div>
@@ -68,14 +73,28 @@
    
     
    
-    <script> $('.ui.accordion').accordion();</script>
+    
     <script> 
     $('#toggle').click(function(){
         $('.ui.sidebar').sidebar('toggle');
-        
-        
-    });
+    }); 
     </script>
+    
+    <script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
 </body>
 
 </html>
