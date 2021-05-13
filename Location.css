@@ -1,0 +1,4 @@
+body
+  &.pushable
+    >.pusher
+      background: teal

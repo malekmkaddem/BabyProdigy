@@ -21,6 +21,7 @@
     
     
    <!-- Menu-->
+    
     <div class = "ui vertical left inverted sidebar menu" id = "menu">
     <a class="BabyProdigy" href="index.html">BabyProdigy</a>
         <a class="item" id = "item" href = "Products.html">Products</a>
@@ -35,33 +36,32 @@
   </a>
     
     </div> 
-    
-    <div clas = "ui sticky basic menu ">
+ 
+    <div class = "ui fixed basic menu " id ="menuBar">
     <div id = "toggle" class = "item">
-        <i class="sidebar icon " id = "menuIcon">  </i>
+        <i class="sidebar blue icon " id = "menuIcon">  </i>
         
         </div>
     
     </div>
+        
     <!-- End Menu-->
     
-    
    
-    <br>
-    <br>
-    <br>
-    <br>
+
     
     <div class="pusher">
     <div class = "ui container" id = "container1">
     
     <p class ="ui big header"> Our products</p>
      <br>
-     <p id ="sentence1"> We proud ourselves that all our toys offered to you through our website or in-srote purshase are carefully designed , checked and re-checked to ensure the best experience and safety to your future prodigy kid.  </p> 
+     <h2 id ="sentence1"> We proud ourselves that all our toys offered to you through our website or in-srote purshase are carefully designed , checked and re-checked to ensure the best experience and safety to your future prodigy kid.  </h2> 
         </div>
+        <br>
+        <br>
     <div class = "ui container" id = "container2">
     <!-- Products List (Collapsable Style)-->
-    <div class="ui styled accordion">
+    <div class="ui styled accordion" id = "accordion">
   <div class="title">
     <i class="info icon"></i>
     Building Toy
@@ -95,8 +95,7 @@
      </div>   
 </div>
    
-    <br>
-    <br>
+  
     <br>
     <br>
     <div class = "ui container" id = "container3">
@@ -106,13 +105,7 @@
         </div>
     </div>
         
-     <br>
-     <br>
-    
-    
-    
-    <br>
-    <br>
+     
     
    <!-- Payment Method code here(Debit/credit cards)--> 
     
@@ -123,6 +116,7 @@
     <script> 
     $('#toggle').click(function(){
         $('.ui.sidebar').sidebar('toggle');
+        
         
     });
     </script>

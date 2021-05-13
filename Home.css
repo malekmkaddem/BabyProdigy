@@ -1,8 +1,8 @@
 body{
-     background-image: url("gadget-for-kids.jpg");
+   background-image: url("gadget-for-kids.jpg"); 
      background-position:center;
      background-repeat:no-repeat;
-     background-size:cover;   
+     background-size:auto;   
     background-color: black;
     
 }
@@ -27,21 +27,33 @@ footer{
 
 @media screen (orientation: landscape) , (max-width:660px) {
     body{
-      margin: 0;
+      
+        
+          background-image: url("gadget-for-kids.jpg"); 
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:auto;   
+    background-color: black;
+    margin: 0;
         font-family: Arial , Helvetica, sans-serif;
       
         font-size: 3em;
         line-height: 1.5;
         text-align: center;
     }
-    
-    #search{
-        
-        
-    } 
 
-    
+    body.pushable>.pusher {
   
+        background: none;
+        background-image:  url("gadget-for-kids.jpg");
+         background-position:center;    
+     background-repeat:no-repeat;
+     background-size:300%;
+ 
+    
+        
+}
+    
        img{
         display:flex;
         width: 100%;
@@ -61,11 +73,11 @@ p{
     font-size:100%;
         line-height: 1.5;
         text-align:center;
-    opacity:90%;
+    
     
     display: flex;
    width: 100%;
-    color: whitesmoke;
+    color: white;
 }
     
     
@@ -80,28 +92,31 @@ p{
 	}
     
      #menu{
-        display:flex;
+        display:inline-block;
        font-size:50%;
         width: 60%;
+         
        
     }
     
     #menuIcon{
-     background: none;
-        background-color: none;
+        
         float: left;
-        display: flex;
-        color: black;
+        display:inline-block;
+        color: white;
     }
    
-    
+    menuBar{
+        float: left;
+        display:flex;
+    } 
    
     .pusher{
-           font-size:100%;
+           font-size:50%;
         line-height: 1.5;
         text-align:center;
-    opacity:90%;
-    background-color: black;
+   
+   
     display: flex;
    width: 100%;
     color: whitesmoke;

@@ -1,23 +1,28 @@
- 
 
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BabyProdigy</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width">
-  
+<title>BabyProdigy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width">
 
-    <link rel="Stylesheet" href="Extra.css">
+
+    
     <link rel = "Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
-
-    </head>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <link rel="Stylesheet" href="Products.css">
+   
     
 
+    
+    </head>
+
 <body>
-  <!-- Menu-->
+    
+    
+   <!-- Menu-->
+    
     <div class = "ui vertical left inverted sidebar menu" id = "menu">
     <a class="BabyProdigy" href="index.html">BabyProdigy</a>
         <a class="item" id = "item" href = "Products.html">Products</a>
@@ -32,17 +37,21 @@
   </a>
     
     </div> 
-    
-    <div clas = "ui sticky basic menu ">
+ 
+    <div class = "ui fixed basic menu " id ="menuBar">
     <div id = "toggle" class = "item">
-        <i class="sidebar icon " id = "menuIcon">  </i>
+        <i class="sidebar blue icon " id = "menuIcon">  </i>
         
         </div>
     
     </div>
+        
     <!-- End Menu-->
     
+   
 
+    
+    <div class = "pusher">
 <div id = "WURFL"> 
     <h1> No , this is not about toys ! It's about our great friend, the mighty WURFL! Let us tell you what is can do ! </h1>
     <h3>For those who don't know what it is , we are here to make you smarter every day !</h3> 
@@ -57,10 +66,21 @@
     <p> mp3 | A static capability and as it implies , this capability returns true if the device supports MP3 sound format. </p>
     
     </div>  
+    </div>
+
+
+     
     
+   <!-- Payment Method code here(Debit/credit cards)--> 
+    
+   
+    
+   
+    <script> $('.ui.accordion').accordion();</script>
     <script> 
     $('#toggle').click(function(){
         $('.ui.sidebar').sidebar('toggle');
+        
         
     });
     </script>
@@ -69,6 +89,4 @@
 </html>
 
 
-
  
-

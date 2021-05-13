@@ -27,17 +27,18 @@ p{
     body{
       margin: 0;
         font-family: Arial , Helvetica, sans-serif;
-      
+      background: black;
         font-size: 3em;
         line-height: 1.5;
         text-align: center;
     }
     
-    #search{
-        
-        
-    } 
-
+    #accordion{
+        width: 100%;
+        font-size: 60%;
+        background-color:skyblue;
+      
+    }
     
   
        img{
@@ -80,11 +81,9 @@ p{
         background-color: none;
         float: left;
         display: flex;
-        color: black;
+        
     }
     #container{
-        
-       
     
         line-height: 1.5;
         text-align:center;
@@ -93,8 +92,44 @@ p{
     display: flex;
    width: 100%;
     color: whitesmoke;
-    background-color: black;
+    
 
         
     }
+    
+    p{
+    font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: white;
+        font-family: cursive;
+}
+    #sentence1 {
+        font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: white;
+        font-family: cursive;
+    }
+    
+    
+     body.pushable>.pusher {
+   
+        background-color: black;
+        background-image:  url("productBackGround.jpg");
+         background-position:center  ; 
+        background-repeat:no-repeat;
+         background-size:contain;
+ 
+    
+        
+}
    
