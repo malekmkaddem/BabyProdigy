@@ -19,39 +19,47 @@
 
 <body>
     
-    <!--  Top menu bar -->
- <div class="ui top fixed inverted teal icon menu main">
-  <div class="ui  header item">
-    <a class="BabyProdigy" href="index.html">BabyProdigy</a>
-  </div>
-        <div class="search item">
-      
-        <input type="text" placeholder="Type to search...">
     
-</div>
-  <a class="item" id = "item"
-     href = "Products.html">
-    Products
-  </a>
-  <a class="item" id = "item" href="Location.html">
+   <!-- Menu-->
+    <div class = "ui vertical left inverted sidebar menu" id = "menu">
+    <a class="BabyProdigy" href="index.html">BabyProdigy</a>
+        <a class="item" id = "item" href = "Products.html">Products</a>
+        <a class="item" id = "item" href="Location.html">
     Location
   </a>
-
         <a class="item" id = "item" href="Extra.html">
     Extra
   </a>
         <a class="item" id = "item" href="ContactUs.html">
     Contact us
   </a>
-</div>
-    <br>
-    <br>
-    <br>
-    <br>
-<p class ="ui big header"> Our products</p>
-     <br>
-     <p id ="sentence1"> We proud ourselves that all our toys offered to you through our website or in-srote purshase are carefully designed , checked and re-checked to ensure the best experience and safety to your future prodigy kid.  </p>
     
+    </div> 
+    
+    <div clas = "ui sticky basic menu ">
+    <div id = "toggle" class = "item">
+        <i class="sidebar icon " id = "menuIcon">  </i>
+        
+        </div>
+    
+    </div>
+    <!-- End Menu-->
+    
+    
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="pusher">
+    <div class = "ui container" id = "container1">
+    
+    <p class ="ui big header"> Our products</p>
+     <br>
+     <p id ="sentence1"> We proud ourselves that all our toys offered to you through our website or in-srote purshase are carefully designed , checked and re-checked to ensure the best experience and safety to your future prodigy kid.  </p> 
+        </div>
+    <div class = "ui container" id = "container2">
     <!-- Products List (Collapsable Style)-->
     <div class="ui styled accordion">
   <div class="title">
@@ -84,18 +92,20 @@
       <img class="image3" src = "81bBfrpqFhL._SX%20466_.jpg">
       
   </div>
-        
+     </div>   
 </div>
    
     <br>
     <br>
     <br>
     <br>
-    
+    <div class = "ui container" id = "container3">
     <p id ="sentence2">  All our toys include a life waranty!
-        Our reasrchers and engeneers are great , and so are their Products! we garantie a robust , solid and durable toy that is expected to last for a duration of a life-time, but we know that things can go wrong , and kids happen!
-        They break it , we fix it or replace it. period.</p>
-    
+        Our reasrchers and engeneers are great , and so are their Products! we garantie a robust , solid and durable toy that is expected to last for a duration of a life-time! Though we know that things can go wrong , and kids happen!
+        So , they break it , we fix it or replace it. Period.</p>
+        </div>
+    </div>
+        
      <br>
      <br>
     
@@ -110,6 +120,12 @@
     
    
     <script> $('.ui.accordion').accordion();</script>
+    <script> 
+    $('#toggle').click(function(){
+        $('.ui.sidebar').sidebar('toggle');
+        
+    });
+    </script>
 </body>
 
 </html>

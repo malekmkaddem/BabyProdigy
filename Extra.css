@@ -1,28 +1,48 @@
 body{
-     background-image: url("productBackGround.jpg");
+      margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+      
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+background-image: url("extra.jpg");
      background-position:center;
      background-repeat:no-repeat;
-     background-size: cover;
+     background-size:cover;   
+
+    }
     
+    
+        
+        
+    
+    #menu{
+        
+        display:contents;
+       font-size:60%;
+        
+        
+    }
+       
+    
+    
+    h1{
+   text-align: center;
 }
-
-
-.ui.styled.accordion{
-    opacity: 95%;
-    background-color:lightcyan;
-}
-
 p{
     font-size:100%;
         line-height: 1.5;
         text-align:center;
     opacity:90%;
     
-    display: flex;
+    
    width: 100%;
     
+    float: right;
 }
-
+    
+  
+    
 @media screen (orientation: landscape) , (max-width:660px) {
     body{
       margin: 0;
@@ -31,43 +51,17 @@ p{
         font-size: 3em;
         line-height: 1.5;
         text-align: center;
+background-image: url("extra.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;   
+
     }
     
-    #search{
-        
-        
-    } 
-
     
+        
+        
   
-       img{
-        display:flex;
-        width: 100%;
-        height: auto;
-        
-    }
-    
-    
-    h1{
-   
-
-        border: 6px solid black ;
-        
-        border-radius: 40%;
-}
-
-    
-    
-  footer {
-	display: inline-block;
-        width: 100%;
-        height: auto;
-        line-height: 2;
-        color:palevioletred;
-        font-family: cursive;
-        
-	}
-    
      #menu{
         display:flex;
        font-size:50%;
@@ -82,19 +76,27 @@ p{
         display: flex;
         color: black;
     }
-    #container{
-        
+   
        
     
+    
+    h1{
+   text-align: center;
+}
+p{
+    font-size:100%;
         line-height: 1.5;
         text-align:center;
+    opacity:90%;
     
     
-    display: flex;
    width: 100%;
-    color: whitesmoke;
-    background-color: black;
-
+    
+    float: right;
+}
+    
+    
+ 
         
-    }
-   
+	}
+}

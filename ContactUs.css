@@ -1,0 +1,11 @@
+#contactInfo{font-size:100%;
+        line-height: 1.5;
+        text-align:center;
+    opacity:90%;
+    
+    display: flex;
+    width: 100%;
+    border: 5px solid black;
+    font-family: cursive;
+}
+

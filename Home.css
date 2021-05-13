@@ -38,17 +38,10 @@ footer{
     #search{
         
         
-    }
-    #menu{
-        
-        display:contents;
-       font-size:50%;
-        width: 100%;
-        
-    }
-    #menu{
-       display: none;
-    }
+    } 
+
+    
+  
        img{
         display:flex;
         width: 100%;
@@ -85,23 +78,33 @@ p{
         font-family: cursive;
         
 	}
-    #icon{
-     background: none;
-        float: left;
-        display: flex;
-        font-size: 80%;
-        border: 2px solid black;
-        background-color: black;
-        color: white;
-    }
-    #mycheckbox{
-        display: none;
+    
+     #menu{
+        display:flex;
+       font-size:50%;
+        width: 60%;
+       
     }
     
-    #mycheckbox:checked + #menu{
-         display:contents;
-       font-size:50%;
-        width: 100%;
+    #menuIcon{
+     background: none;
+        background-color: none;
+        float: left;
+        display: flex;
+        color: black;
+    }
+   
+    
+   
+    .pusher{
+           font-size:100%;
+        line-height: 1.5;
+        text-align:center;
+    opacity:90%;
+    background-color: black;
+    display: flex;
+   width: 100%;
+    color: whitesmoke;
     }
         
     }
