@@ -39,7 +39,7 @@ body{
         font-size:100%;
         line-height: 1.5;
         text-align:center;
-    display:lex;
+    display:flex;
     width: 100%;
     border: 5px solid pink;
     font-family: cursive;
