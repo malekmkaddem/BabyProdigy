@@ -19,20 +19,33 @@ p{
     width: 100%;
     height: auto;
 }
-footer{
-    text-align: center;
-    font-size: 16pt;
-    
-}
+#footer{
+	  text-align: center;
+    font-size: 20pt;
+  background-color: DarkSalmon;
+  color: white;
+   
+    margin: 0 10px;
+
+        
+	}
+  #menu{
+        
+      
+        display:flex;
+       font-size:100%;
+        width: 20%;
 
 @media screen (orientation: landscape) , (max-width:660px) {
     body{
       margin: 0;
         font-family: Arial , Helvetica, sans-serif;
-      
         font-size: 3em;
         line-height: 1.5;
         text-align: center;
+        
+    background-color: black;
+       
     }
 
     body.pushable>.pusher {
@@ -42,13 +55,17 @@ footer{
         background-image: url("gadget-for-kids.jpg"); 
      background-position:center;
      background-repeat:no-repeat;
-     background-size:auto;   
+     background-size :cover;
+         height: 100%;
+        width: 100%;
+    
+     
     
     }
- 
+    
     
         
-}
+
     
        img{
         display:flex;
@@ -77,11 +94,11 @@ p{
 }
     
     
-  footer {
+  #footer{
 	display: inline-block;
         width: 100%;
         height: auto;
-        line-height: 2;
+      
         color:palevioletred;
         font-family: cursive;
         
@@ -90,7 +107,8 @@ p{
      #menu{
         display:inline-block;
        font-size:50%;
-        width: 60%;
+        width: 50%;
+         
          
        
     }
@@ -105,14 +123,13 @@ p{
     menuBar{
         float: left;
         display:flex;
+        background-color: black;
     } 
    
     .pusher{
            font-size:50%;
         line-height: 1.5;
         text-align:center;
-   
-   
     display: flex;
    width: 100%;
     color: whitesmoke;

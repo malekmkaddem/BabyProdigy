@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>BabyProdigy</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -10,7 +10,7 @@
     <link rel = "Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-    <link rel="Stylesheet" href="Products.css">
+    <link rel="Stylesheet" href="Location.css">
    
     
 
@@ -23,15 +23,15 @@
    <!-- Menu-->
     
     <div class = "ui vertical left inverted sidebar menu" id = "menu">
-    <a class="BabyProdigy" href="index.html">BabyProdigy</a>
-        <a class="item" id = "item" href = "Products.html">Products</a>
-        <a class="item" id = "item" href="Location.html">
+    <a class="item" href="index.html">Home</a>
+        <a class="item" id = "item1" href = "Products.html">Products</a>
+        <a class="item" id = "item2" href="Location.html">
     Location
   </a>
-        <a class="item" id = "item" href="Extra.html">
+        <a class="item" id = "item3" href="Extra.html">
     Extra
   </a>
-        <a class="item" id = "item" href="ContactUs.html">
+        <a class="item" id = "item4" href="ContactUs.html">
     Contact us
   </a>
     
@@ -53,21 +53,16 @@
     <div class="pusher">
     <div class = "ui container" id = "container1">
     
-    <p class ="ui big header"> Our products</p>
+    
      <br>
-     <h2 id ="location"> You can locate us simply by allowing your location to be visible.   </h2> 
+     <h2 id ="location"> In order to Locate us , let us locate you first !  <i class = "ui blue search icon"></i> </h2> 
         </div>
-        <div id = "location">
-        <button onclick="getLocation()">Try It</button>
+        <div id = "location2">
+        <button id = "locateMe" onclick="getLocation()">Where Am I ?</button>
 
 <p id="demo"></p>
         </div>
-      <p>Click the button to get your coordinates.</p>
-
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-
+      
     </div>
         
      
@@ -99,23 +94,7 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
 </script>
-  <script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.watchPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-    
-function showPosition(position) {
-    x.innerHTML="Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-
+  
 </body>
 
 </html>

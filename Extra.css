@@ -18,9 +18,10 @@ background-image: url("extra.jpg");
     
     #menu{
         
-        display:contents;
-       font-size:60%;
-        
+      
+        display:flex;
+       font-size:50%;
+        width: 50%;
         
     }
        
@@ -83,18 +84,29 @@ background-image: url("extra.jpg");
     h1{
    text-align: center;
 }
-p{
-    font-size:100%;
+p  {
+  font-size:40%;
         line-height: 1.5;
         text-align:center;
-    opacity:90%;
     
     
+    display: flex;
    width: 100%;
-    
-    float: right;
+    color: white;
+        font-family: cursive;
 }
+    h3{
+        font-size:40%;
+        line-height: 1.5;
+        text-align:center;
     
+    
+    display: flex;
+   width: 100%;
+    color: red;
+        font-family: cursive;
+        
+    }
     
  
         
